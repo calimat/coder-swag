@@ -13,6 +13,8 @@
 		F6C2B86B1F33FEC90062DC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C2B86A1F33FEC90062DC70 /* Assets.xcassets */; };
 		F6C2B86E1F33FEC90062DC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C2B86C1F33FEC90062DC70 /* LaunchScreen.storyboard */; };
 		F6C2B8791F34035B0062DC70 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2B8781F34035B0062DC70 /* CategoryCell.swift */; };
+		F6C2B87B1F3405710062DC70 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2B87A1F3405710062DC70 /* Category.swift */; };
+		F6C2B87E1F3406F60062DC70 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2B87D1F3406F60062DC70 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F6C2B86D1F33FEC90062DC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6C2B86F1F33FEC90062DC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6C2B8781F34035B0062DC70 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		F6C2B87A1F3405710062DC70 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F6C2B87D1F3406F60062DC70 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F6C2B8621F33FEC90062DC70 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				F6C2B87C1F3406EA0062DC70 /* Services */,
 				F6C2B8761F3402D50062DC70 /* Model */,
 				F6C2B8771F3402EE0062DC70 /* View */,
 				F6C2B8751F3402CD0062DC70 /* Controller */,
@@ -79,6 +84,7 @@
 		F6C2B8761F3402D50062DC70 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F6C2B87A1F3405710062DC70 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				F6C2B8781F34035B0062DC70 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F6C2B87C1F3406EA0062DC70 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F6C2B87D1F3406F60062DC70 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				F6C2B8661F33FEC90062DC70 /* CategoriesVC.swift in Sources */,
 				F6C2B8641F33FEC90062DC70 /* AppDelegate.swift in Sources */,
 				F6C2B8791F34035B0062DC70 /* CategoryCell.swift in Sources */,
+				F6C2B87B1F3405710062DC70 /* Category.swift in Sources */,
+				F6C2B87E1F3406F60062DC70 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
