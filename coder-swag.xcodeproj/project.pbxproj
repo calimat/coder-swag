@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F61A5D721F380E7900589212 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A5D711F380E7900589212 /* ProductCell.swift */; };
 		F6C2B8641F33FEC90062DC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2B8631F33FEC90062DC70 /* AppDelegate.swift */; };
 		F6C2B8661F33FEC90062DC70 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2B8651F33FEC90062DC70 /* CategoriesVC.swift */; };
 		F6C2B8691F33FEC90062DC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C2B8671F33FEC90062DC70 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F61A5D711F380E7900589212 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		F6C2B8601F33FEC90062DC70 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C2B8631F33FEC90062DC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6C2B8651F33FEC90062DC70 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				F6C2B8781F34035B0062DC70 /* CategoryCell.swift */,
+				F61A5D711F380E7900589212 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				F6C2B8661F33FEC90062DC70 /* CategoriesVC.swift in Sources */,
 				F6C2B8641F33FEC90062DC70 /* AppDelegate.swift in Sources */,
 				F6C2B8791F34035B0062DC70 /* CategoryCell.swift in Sources */,
+				F61A5D721F380E7900589212 /* ProductCell.swift in Sources */,
 				F6C2B87B1F3405710062DC70 /* Category.swift in Sources */,
 				F6C2B87E1F3406F60062DC70 /* DataService.swift in Sources */,
 			);
@@ -360,6 +364,7 @@
 				F6C2B8741F33FEC90062DC70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
